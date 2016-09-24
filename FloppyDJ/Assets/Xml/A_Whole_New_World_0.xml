@@ -1,0 +1,2657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMeasureElementInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MeasureElementInfo>
+    <Type>Time</Type>
+    <Element xsi:type="TimeInfo">
+      <Beats>4</Beats>
+      <BeatType>4</BeatType>
+      <Divisions>256</Divisions>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>1024</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp6</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E6</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D6</Name>
+      <Duration>1024</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A5</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G5</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>512</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>512</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A6</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A7</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>512</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B4</Name>
+      <Duration>512</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>42</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B4</Name>
+      <Duration>43</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>43</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>512</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>512</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>170</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G5</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A5</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp6</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A5</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>192</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>512</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>42</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>86</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A5</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>1024</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>170</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B4</Name>
+      <Duration>320</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>320</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>512</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp5</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>1024</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>512</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>512</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>170</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C4</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>640</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>170</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>170</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C4</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb3</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>170</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>170</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>171</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>512</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E5</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F3</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D3</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F3</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C6</Name>
+      <Duration>896</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>1024</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C4</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C6</Name>
+      <Duration>896</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>1024</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb3</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C4</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb3</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>1024</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D5</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C5</Name>
+      <Duration>128</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>64</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F5</Name>
+      <Duration>960</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>1024</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>384</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A6</Name>
+      <Duration>1024</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>256</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G5</Name>
+      <Duration>1152</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>1024</Duration>
+    </Element>
+  </MeasureElementInfo>
+</ArrayOfMeasureElementInfo>

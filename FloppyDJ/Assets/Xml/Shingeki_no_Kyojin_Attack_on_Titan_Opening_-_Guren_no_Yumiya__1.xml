@@ -1,0 +1,5464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMeasureElementInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MeasureElementInfo>
+    <Type>Time</Type>
+    <Element xsi:type="TimeInfo">
+      <Beats>4</Beats>
+      <BeatType>4</BeatType>
+      <Divisions>120</Divisions>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ESharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ESharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ESharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ESharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>240</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>240</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>240</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>240</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>120</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F3</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>ASharp1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>BSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>180</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp3</Name>
+      <Duration>10</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>10</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C3</Name>
+      <Duration>10</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>10</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>10</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp1</Name>
+      <Duration>10</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp3</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>FSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>90</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>150</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>90</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp2</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>GSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>DSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>90</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>CSharp3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>E3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>B3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G2</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>90</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb2</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>90</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb3</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb2</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb1</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb1</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb2</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb2</Name>
+      <Duration>12</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb2</Name>
+      <Duration>12</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Eb3</Name>
+      <Duration>12</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>12</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G4</Name>
+      <Duration>12</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F2</Name>
+      <Duration>12</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>C3</Name>
+      <Duration>12</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F3</Name>
+      <Duration>12</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>A3</Name>
+      <Duration>12</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>F4</Name>
+      <Duration>12</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>60</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G2</Name>
+      <Duration>240</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>120</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D4</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Rest</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D3</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>Bb2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G2</Name>
+      <Duration>30</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>D2</Name>
+      <Duration>15</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G1</Name>
+      <Duration>120</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G3</Name>
+      <Duration>120</Duration>
+    </Element>
+  </MeasureElementInfo>
+  <MeasureElementInfo>
+    <Type>Note</Type>
+    <Element xsi:type="NoteInfo">
+      <Name>G1</Name>
+      <Duration>240</Duration>
+    </Element>
+  </MeasureElementInfo>
+</ArrayOfMeasureElementInfo>
