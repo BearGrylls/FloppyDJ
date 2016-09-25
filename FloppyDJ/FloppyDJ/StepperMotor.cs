@@ -16,9 +16,36 @@ namespace FloppyDJ
 
     public class StepperMotor
     {
+        public string Name { get; set; }
         public GpioPin StepPin, DirectionPin;
-        public double Speed;   // Speed is in steps per second
+        public double Speed   // Speed is in steps per second
+        {
+            get
+            {
+                return _speed;
+            }
+
+            set
+            {
+                if (OctaveOffset < 0)
+                {
+                    _speed = value / (2 * Math.Abs(OctaveOffset));
+                }
+                else if (OctaveOffset > 0)
+                {
+                    _speed = value * (2 * Math.Abs(OctaveOffset));
+                }
+                else
+                {
+                    _speed = value;
+                }
+            }
+        }
+
         public long DirChangeSteps = 50;
+        public int OctaveOffset = 0;
+
+        private double _speed;
 
         public SpinDirection Direction
         {
@@ -50,6 +77,8 @@ namespace FloppyDJ
 
             stopwatch = new Stopwatch();
             stopwatch.Start();
+
+            Name = "Motor (" + stepPinNumber + ")";
         }
 
         public void SetDirection(SpinDirection direction)

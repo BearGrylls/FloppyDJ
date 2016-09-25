@@ -188,14 +188,14 @@ namespace FloppyDJ
                     {
                         motor.Speed = Pitch.GetFrequency(curr.NoteId) / 2;
 
-                        if (OctaveOffset < 0)
-                        {
-                            motor.Speed /= 2 * Math.Abs(OctaveOffset);
-                        }
-                        else if (OctaveOffset > 0)
-                        {
-                            motor.Speed *= 2 * Math.Abs(OctaveOffset);
-                        }
+                        //if (OctaveOffset < 0)
+                        //{
+                        //    motor.Speed /= 2 * Math.Abs(OctaveOffset);
+                        //}
+                        //else if (OctaveOffset > 0)
+                        //{
+                        //    motor.Speed *= 2 * Math.Abs(OctaveOffset);
+                        //}
 
                         prev = curr;
                     }

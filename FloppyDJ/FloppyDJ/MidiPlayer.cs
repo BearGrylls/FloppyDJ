@@ -14,19 +14,15 @@ namespace FloppyDJ
     {
         public List<MidiTrackPlayer> Tracks = new List<MidiTrackPlayer>();
         public double PlaySpeed = 1;
-        public bool IsPlaying
-        {
-            get
-            {
-                return !stop;
-            }
-        }
+        public bool IsPlaying = false;
 
         private bool stop = true;
         private MidiConfig Config;
 
         public async static Task<MidiPlayer> LoadConfig(MidiConfig config, StepperMotor[] motors, bool fillParts)
         {
+            if (config == null) return null;
+
             MidiPlayer midiPlayer = new MidiPlayer();
 
             midiPlayer.Config = config;
@@ -90,6 +86,8 @@ namespace FloppyDJ
 
         public void Play(double speed = -1)
         {
+            IsPlaying = true;
+
             Debug.WriteLine("Playing midi...");
 
             stop = false;
@@ -113,6 +111,7 @@ namespace FloppyDJ
 
                 if (count == Tracks.Count)
                 {
+                    IsPlaying = false;
                     return;
                 }
             }
@@ -121,6 +120,8 @@ namespace FloppyDJ
             {
                 track.Reset();
             }
+
+            IsPlaying = false;
         }
 
         public void PlayGlobal(double speed = -1)

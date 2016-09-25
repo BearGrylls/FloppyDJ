@@ -10,29 +10,53 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Floppy Drive DJ" Grid.Column="0" Grid.Row="0" Margin="20" FontWeight="Light" FontSize="60"/>
-        <Grid Grid.Column="0" Grid.Row="1" >
+        <TextBlock Text="Floppy Drive DJ" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Margin="20" FontWeight="Light" FontSize="60"/>
+        <Grid Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="Floppy Drives" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="42.667" FontWeight="Light" Margin="20"/>
+            <!--<ListView x:Name="motorListView" Grid.Row="1" Margin="20" SelectionChanged="motorListView_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+            <StackPanel x:Name="driveStackPanel" Grid.Row="1" Margin="20">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <!--<TextBlock Text="Test" VerticalAlignment="Center" Margin="10"/>
+                    <Button Content="Test Button"/>
+                    <Slider Width="129"/>-->
+                </StackPanel>
+            </StackPanel>
+            <Button Name="resetAllButton" Grid.Row="2" Grid.Column="0" Content="Reset All" Height="72" FontSize="32" Margin="20" FontWeight="Light" Click="resetAllButton_Click" HorizontalAlignment="Stretch"/>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" Text="Song List" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="42.667" FontWeight="Light" Margin="20"/>
-            <StackPanel x:Name="stackPanel" Grid.Row="1" Margin="20"/>
-        </Grid>
-        <StackPanel Grid.Column="1" Grid.Row="1">
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Now Playing: " HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="42.667" FontWeight="Light" Margin="20"/>
-                <TextBlock x:Name="titleTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="None" VerticalAlignment="Top" FontSize="42.667" FontWeight="Light" Margin="20"/>
+            <ListView x:Name="songListView" Grid.Row="1" Margin="20" SelectionChanged="songListView_SelectionChanged"/>
+            <StackPanel Grid.Row="2">
+                <TextBlock x:Name="statusTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="None" VerticalAlignment="Top" FontSize="42.667" FontWeight="Light" Margin="20"/>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="playButton" HorizontalAlignment="Left" Margin="20" VerticalAlignment="Top" FontSize="32" Height="72" Width="161" Click="playButton_Click">
+                        <TextBlock x:Name="playButtonTextBlock"  Text="&#xE768;" FontFamily="Segoe MDL2 Assets"/>
+                    </Button>
+                </StackPanel>
             </StackPanel>
-            <Button x:Name="playButton" HorizontalAlignment="Left" Margin="20" VerticalAlignment="Top" FontSize="32" Height="72" Width="161" Click="playButton_Click">
-                <TextBlock Text="&#xE768;" FontFamily="Segoe MDL2 Assets"/>
-            </Button>
-        </StackPanel>
+        </Grid>
     </Grid>
 </Page>

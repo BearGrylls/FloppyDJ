@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
-using System.IO;
 using Windows.Storage.Streams;
 using Windows.Storage;
 
@@ -28,7 +27,7 @@ namespace FloppyDJ
         {
             switch(midiName)
             {
-                case "hyrule_temple":
+                case "Hyrule Temple":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\Hyrule_Temple_0.xml",
@@ -38,7 +37,7 @@ namespace FloppyDJ
                         }, 
                         new int[] { 0, 0 }, 1.25);
 
-                case "trainer_battle":
+                case "Trainer Battle":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\Trainer_Battle_Theme_0.xml",
@@ -48,7 +47,7 @@ namespace FloppyDJ
                         },
                         new int[] { 0, 0 }, 1.25);
 
-                case "pokemon":
+                case "Pokemon":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\pokemon_0.xml",
@@ -58,7 +57,7 @@ namespace FloppyDJ
                         },
                         new int[] { }, 1.15);
 
-                case "decisive_battle":
+                case "Decisive Battle":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\The_Decisive_Battle_-_Final_Fantasy_VI_0.xml",
@@ -68,7 +67,7 @@ namespace FloppyDJ
                         },
                         new int[] { 0, 0 }, 1.5);
 
-                case "what_is_love":
+                case "What is Love":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\What_is_Love_4.xml",  // Singing
@@ -84,14 +83,14 @@ namespace FloppyDJ
                         },
                         new int[] { 0, 0, 0, 0, 0, 0, }, 0.9);
 
-                case "scales":
+                case "Scales":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\Scales_0.xml",
                         },
                         new int[] { 0 }, 1.0);
 
-                case "save_the_world":
+                case "Pentatonix - Save the World / Don't You Worry Child":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\Save_The_WorldDont_You_Worry_Child_1.xml",
@@ -101,7 +100,7 @@ namespace FloppyDJ
                         },
                         new int[] { 0, 0 }, 1.1);
 
-                case "take_on_me":
+                case "Take On Me":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\Take_On_Me_0.xml",
@@ -113,7 +112,7 @@ namespace FloppyDJ
                         },
                         new int[] { 0, 0 }, 1.25);
 
-                case "jurassic_park":
+                case "Jurassic Park":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\jurassicpark_1.xml",
@@ -125,7 +124,7 @@ namespace FloppyDJ
                         },
                         new int[] { -1, -1 }, 0.1);
 
-                case "take_on_me_2":
+                case "Take On Me (2)":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\a-ha - take on me (4)_1.xml",
@@ -143,7 +142,7 @@ namespace FloppyDJ
                         },
                         new int[] { -1, -1 }, 0.25);
 
-                case "billie_jean":
+                case "Billie Jean":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\Michael_Jackson_-_Billie_Jean_1.xml",
@@ -157,7 +156,7 @@ namespace FloppyDJ
                         },
                         new int[] { 0, 2 }, 0.45);
 
-                case "star_wars_medley":
+                case "Star Wars Medley":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\Star_Wars_Medley_0.xml",
@@ -167,7 +166,7 @@ namespace FloppyDJ
                         },
                         new int[] { 0, 0 }, 1);
 
-                case "supreme_star_wars_medley":
+                case "Supreme Star Wars Medley":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\Supreme_Star_Wars_Medley_0.xml",
@@ -181,7 +180,7 @@ namespace FloppyDJ
                         },
                         new int[] { 0,0,0,0,1,1,1,1 }, 1.0);
 
-                case "star_wars":
+                case "Star Wars":
                     return new MidiConfig(new string[]
                         {
                             //@"assets\midi\Star_Wars_Medley (2)_1.xml",
@@ -199,7 +198,7 @@ namespace FloppyDJ
                         },
                         new int[] { -1, -2 }, 0.2);
 
-                case "star_wars_hexabass":
+                case "Star Wars (Hexabass)":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\Hexabass_Star_Wars_Medley_0.xml",
@@ -211,7 +210,7 @@ namespace FloppyDJ
                         },
                         new int[] { 0,0 }, 2);
 
-                case "star_wars_trombone":
+                case "Star Wars (Trombone)":
                     return new MidiConfig(new string[]
                         {
                             @"assets\midi\Star_Wars_Main_Theme_Trombone_Quartet_0.xml",
@@ -222,7 +221,7 @@ namespace FloppyDJ
                         },
                         new int[] { 0,0,0,0,1 }, 1);
 
-                case "star_wars_jw":
+                case "John Williams - Star Wars":
                     return new MidiConfig(new string[]
                         {
                             //@"assets\midi\Movie_Themes_-_Star_Wars_-_by_John_Willams_1.xml",

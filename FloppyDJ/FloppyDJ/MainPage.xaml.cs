@@ -1,11 +1,13 @@
-﻿using System;
+﻿using Microsoft.IoT.Lightning.Providers;
+using Windows.Devices.Gpio;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
-using Windows.Devices.Gpio;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.System.Threading;
@@ -16,6 +18,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Devices;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -24,11 +27,23 @@ namespace FloppyDJ
     public sealed partial class MainPage : Page
     {
         MidiPlayer player;
+        List<StepperMotor> motors;
+        ObservableCollection<string> songs;
+        List<Button> testButtons;
+        List<Slider> sliders;
 
         public MainPage()
         {
             this.InitializeComponent();
-            titleTextBlock.Text = "";
+            statusTextBlock.Text = "";
+            playButton.IsEnabled = false;
+            testButtons = new List<Button>();
+            sliders = new List<Slider>();
+
+            if (Microsoft.IoT.Lightning.Providers.LightningProvider.IsLightningEnabled)
+            {
+                LowLevelDevicesController.DefaultProvider = LightningProvider.GetAggregateProvider();
+            }
         }
 
         private long getTps()
@@ -48,106 +63,129 @@ namespace FloppyDJ
             return sum / 100;
         }
 
-        StepperMotor[] motors;
-        Instrument[] instruments;
-
-        protected async override void OnNavigatedTo(NavigationEventArgs e)
+        private void resetPlayer()
         {
-            long tps = getTps();
-
-            motors = new StepperMotor[]
+            if (player != null)
             {
-                new StepperMotor(16, 12, tps),  // 2
-                new StepperMotor(17, 26, tps),  // 3
-                new StepperMotor(21, 20, tps),  // 1
-                new StepperMotor(13, 19, tps),  // 5
-                new StepperMotor(18, 23, tps),  // 7
-                new StepperMotor(6, 5, tps),  // 8
-                new StepperMotor(22, 27, tps),  // 4
-                new StepperMotor(25, 24, tps),  // 6
-            };
-
-            List<Instrument> instruments = new List<Instrument>();
-            foreach(StepperMotor m in motors)
-            {
-                instruments.Add(new Instrument()
-                {
-                    Motor = m,
-                    Note = null
-                });
+                player.Stop();
             }
-            this.instruments = instruments.ToArray();
 
-            //motors[0].DirChangeSteps = 0;
+            player = null;
+        }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            long tps = TimeSpan.TicksPerSecond; //getTps();
+
+            motors = new List<StepperMotor>()
+            {
+                new StepperMotor(3, 2, tps),
+                new StepperMotor(17, 4, tps),
+                new StepperMotor(22, 27, tps),
+                new StepperMotor(9, 10, tps),
+                new StepperMotor(5, 11, tps),
+                new StepperMotor(13, 6, tps),
+                new StepperMotor(26, 19, tps),
+                new StepperMotor(21, 20, tps),
+            };
+            
+            //motorListView.ItemsSource = motors;
+            
             int count = 0;
             foreach(StepperMotor motor in motors)
             {
-                var button = new Button()
+                motor.Name = "Motor " + (++count);
+                motor.OctaveOffset = -1;    // adjust octave
+
+                var stackPanel = new StackPanel()
                 {
-                    Content = "Motor " + (count++).ToString()
+                    Orientation = Orientation.Horizontal
                 };
 
-                button.Click += async (s, args) =>
+                var textblock = new TextBlock()
+                {
+                    Text = motor.Name,
+                    Margin = new Thickness(10),
+                    VerticalAlignment = VerticalAlignment.Center
+                };
+
+                var testButton = new Button()
+                {
+                    Content = "Test",
+                    Margin = new Thickness(10)
+                };
+                testButton.Click += async (s, args) =>
                 {
                     await ThreadPool.RunAsync(async (s1) =>
                     {
-                        MidiPlayer scalePlayer = await MidiPlayer.LoadConfig("scales", new StepperMotor[] { motor });
+                        resetPlayer();
+                        MidiPlayer scalePlayer = await MidiPlayer.LoadConfig("Scales", new StepperMotor[] { motor });
                         scalePlayer.Play();
                     }, WorkItemPriority.Normal);
                 };
+                testButtons.Add(testButton);
 
-                stackPanel.Children.Add(button);
+                var octaveSlider = new Slider()
+                {
+                    Maximum = 5,
+                    Minimum = -5,
+                    Value = motor.OctaveOffset,
+                    Margin = new Thickness(10),
+                    Width = 150
+                };
+                octaveSlider.ValueChanged += (s, args) =>
+                {
+                    motor.OctaveOffset = (int)octaveSlider.Value;
+                };
+                sliders.Add(octaveSlider);
 
+                stackPanel.Children.Add(textblock);
+                stackPanel.Children.Add(testButton);
+                stackPanel.Children.Add(octaveSlider);
+
+                driveStackPanel.Children.Add(stackPanel);
+
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
                 ThreadPool.RunAsync((s) =>
                 {
                     motor.Reset();
                 }, WorkItemPriority.High);
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
             }
-            //Global.Watch = new Stopwatch();
 
-            //await ThreadPool.RunAsync(async (s1) =>
-            //{
-            //    MidiPlayer scalePlayer = await MidiPlayer.LoadConfig("scales", new StepperMotor[] { motors[0] });
-            //    scalePlayer.PlayGlobal();
-            //}, WorkItemPriority.Normal);
+            songs = new ObservableCollection<string>()
+            {
+                "Hyrule Temple",
+                "Trainer Battle",
+                "Pokemon",
+                "Decisive Battle",
+                "What is Love",
+                "Pentatonix - Save the World / Don't You Worry Child",
+                "Take On Me",
+                "Jurassic Park",
+                "Take On Me (2)",
+                "Billie Jean",
+                "Star Wars Medley",
+                "Supreme Star Wars Medley",
+                "Star Wars",
+                "Star Wars (Hexabass)",
+                "Star Wars (Trombone)",
+                "John Williams - Star Wars",
+                "The Incredibles",
+                "Attack on Titan - Guren No Yumiya"
+            };
 
-            //await ThreadPool.RunAsync(async (s1) =>
-            //{
-            //    MidiPlayer scalePlayer = await MidiPlayer.LoadConfig("trainer_battle", new StepperMotor[] { motors[0] });
-            //    scalePlayer.PlayGlobal();
-            //}, WorkItemPriority.Normal);
-
-            //Global.Watch.Start();
-
-            await Task.Delay(10);
-
-            ////Scales to hear volume
-            //foreach (StepperMotor motor in motors)
-            //{
-            //    MidiPlayer player = await MidiPlayer.LoadConfig("scales", new StepperMotor[] { motor });
-            //    player.Play();
-            //}
-
-            string configName = "decisive_battle";
-
-            //player = await MidiPlayer.LoadConfig(configName, motors);
-            player = await LoadSong("jurassic_park");
-            //titleTextBlock.Text = configName;
-
-            await Task.Delay(2);
-
-            player.Play();
+            songListView.ItemsSource = songs;
         }
         
         public async Task<MidiPlayer> LoadSong(string song)
         {
-            MidiPlayer player = await MidiPlayer.LoadConfig(song, motors);
+            MidiPlayer player = await MidiPlayer.LoadConfig(song, motors.ToArray());
             if (player != null) return player;
 
             switch (song)
             {
-                case "guren_no_yumiya":
+                case "Attack on Titan - Guren No Yumiya":
                     return await MidiPlayer.LoadTrackConfigs(
                         0.75,
                         new TrackConfig(@"assets\midi\Guren_no_Yumiya_Finished__0.xml", -1, motors[0]),
@@ -168,9 +206,9 @@ namespace FloppyDJ
                 case "this_game":
                     return await MidiPlayer.LoadTrackConfigs(
                         2,
-                        new TrackConfig(@"assets\midi\This Game (1)_1.xml", 0, motors)
-                        );
-                case "the_incredibles":
+                        new TrackConfig(@"assets\midi\This Game (1)_1.xml", 0, motors.ToArray())
+                    );
+                case "The Incredibles":
                     return await MidiPlayer.LoadTrackConfigs(
                         1.25,
                         new TrackConfig(@"assets\midi\The_Incredibles_0.xml", -1, motors[0]),
@@ -183,7 +221,7 @@ namespace FloppyDJ
                         new TrackConfig(@"assets\midi\The_Incredibles_7.xml", 0, motors[6]),
                         //new TrackConfig(@"assets\midi\The_Incredibles_8.xml", 0, motors[8]),
                         new TrackConfig(@"assets\midi\The_Incredibles_9.xml", 0, motors[7])
-                        );
+                    );
             }
 
             return player;
@@ -191,27 +229,81 @@ namespace FloppyDJ
 
         private async void playButton_Click(object sender, RoutedEventArgs e)
         {
+            if (player == null) return;
+
             await ThreadPool.RunAsync(async (s) =>
             {
                 if (!player.IsPlaying)
                 {
                     await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                     {
-                        playButton.Content = "Stop";
+                        playButtonTextBlock.Text = "\xE71A";
+                        statusTextBlock.Text = "Playing";
+                        enableControls(false);
                     });
 
-                    player.Play();
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                    ThreadPool.RunAsync((s1) =>
+                    {
+                        player.Play();
+                    }, WorkItemPriority.High);
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
                 }
                 else
                 {
                     await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                     {
-                        playButton.Content = "Play";
+                        playButtonTextBlock.Text = "\xE768";
+                        statusTextBlock.Text = "Stopped";
+                        enableControls(true);
                     });
 
                     player.Stop();
                 }
             }, WorkItemPriority.High);
+        }
+
+        private async void enableControls(bool isEnabled)
+        {
+            await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+            {
+                songListView.IsEnabled = resetAllButton.IsEnabled = isEnabled;
+                foreach (Button button in testButtons)
+                {
+                    button.IsEnabled = isEnabled;
+                }
+            });
+        }
+
+        private void resetAllButton_Click(object sender, RoutedEventArgs e)
+        {
+            foreach(StepperMotor motor in motors)
+            {
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                ThreadPool.RunAsync((s) =>
+                {
+                    motor.Reset();
+                }, WorkItemPriority.High);
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+            }
+
+            foreach(Slider slider in sliders)
+            {
+                slider.Value = -1;
+            }
+        }
+
+        private async void songListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var songName = songListView.SelectedItem as string;
+
+            if (songName != null)
+            {
+                resetPlayer();
+                player = await LoadSong(songName);
+                statusTextBlock.Text = (player != null) ? "Loaded: " + songName : "";
+                playButton.IsEnabled = true;
+            }
         }
     }
 }
