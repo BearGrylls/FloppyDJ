@@ -31,6 +31,7 @@ namespace FloppyDJ
         ObservableCollection<string> songs;
         List<Button> testButtons;
         List<Slider> sliders;
+        string currentSong;
 
         public MainPage()
         {
@@ -94,7 +95,7 @@ namespace FloppyDJ
             int count = 0;
             foreach(StepperMotor motor in motors)
             {
-                motor.Name = "Motor " + (++count);
+                motor.Name = "Drive " + (++count);
                 motor.OctaveOffset = -1;    // adjust octave
 
                 var stackPanel = new StackPanel()
@@ -125,6 +126,26 @@ namespace FloppyDJ
                 };
                 testButtons.Add(testButton);
 
+                var muteButton = new Button()
+                {
+                    Content = "Mute",
+                    Margin = new Thickness(10),
+                    Width = 100
+                };
+                muteButton.Click += (s, args) =>
+                {
+                    motor.Mute = !motor.Mute;
+                    muteButton.Content = (motor.Mute) ? "Unmute" : "Mute";
+                };
+
+                motor.MuteChanged += async (s, args) =>
+                {
+                    await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                    {
+                        muteButton.Content = (motor.Mute) ? "Unmute" : "Mute";
+                    });
+                };
+
                 var octaveSlider = new Slider()
                 {
                     Maximum = 5,
@@ -139,19 +160,23 @@ namespace FloppyDJ
                 };
                 sliders.Add(octaveSlider);
 
+                motor.OctaveOffsetChanged += async (s, args) =>
+                {
+                    await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                    {
+                        octaveSlider.Value = motor.OctaveOffset;
+                    });
+                };
+
                 stackPanel.Children.Add(textblock);
                 stackPanel.Children.Add(testButton);
+                stackPanel.Children.Add(muteButton);
                 stackPanel.Children.Add(octaveSlider);
 
                 driveStackPanel.Children.Add(stackPanel);
-
-#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
-                ThreadPool.RunAsync((s) =>
-                {
-                    motor.Reset();
-                }, WorkItemPriority.High);
-#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
             }
+
+            resetAllMotors();
 
             songs = new ObservableCollection<string>()
             {
@@ -177,55 +202,6 @@ namespace FloppyDJ
 
             songListView.ItemsSource = songs;
         }
-        
-        public async Task<MidiPlayer> LoadSong(string song)
-        {
-            MidiPlayer player = await MidiPlayer.LoadConfig(song, motors.ToArray());
-            if (player != null) return player;
-
-            switch (song)
-            {
-                case "Attack on Titan - Guren No Yumiya":
-                    return await MidiPlayer.LoadTrackConfigs(
-                        0.75,
-                        new TrackConfig(@"assets\midi\Guren_no_Yumiya_Finished__0.xml", -1, motors[0]),
-                        new TrackConfig(@"assets\midi\Guren_no_Yumiya_Finished__1.xml", -1, motors[1], motors[2]),
-                        new TrackConfig(@"assets\midi\Guren_no_Yumiya_Finished__2.xml", 0, motors[3], motors[4]),
-                        new TrackConfig(@"assets\midi\Guren_no_Yumiya_Finished__3.xml", -1, motors[5], motors[6])
-                    );
-                case "star_wars":
-                    return await MidiPlayer.LoadTrackConfigs(
-                        0.25,
-                        new TrackConfig(@"assets\midi\Movie_Themes_-_Star_Wars_-_by_John_Willams_4.xml", -1, motors[0], motors[1]),  // trumpets
-                        new TrackConfig(@"assets\midi\Movie_Themes_-_Star_Wars_-_by_John_Willams_3.xml", 0, motors[1], motors[2]),  // trombones
-                        new TrackConfig(@"assets\midi\Movie_Themes_-_Star_Wars_-_by_John_Willams_5.xml", 0, motors[3]),  // more trombones?
-                        //new TrackConfig(@"assets\midi\Movie_Themes_-_Star_Wars_-_by_John_Willams_6.xml", 0, motors[3]),
-                        new TrackConfig(@"assets\midi\Movie_Themes_-_Star_Wars_-_by_John_Willams_8.xml", -1, motors[4], motors[5]),
-                        new TrackConfig(@"assets\midi\Movie_Themes_-_Star_Wars_-_by_John_Willams_9.xml", 0, motors[6], motors[7])
-                    );
-                case "this_game":
-                    return await MidiPlayer.LoadTrackConfigs(
-                        2,
-                        new TrackConfig(@"assets\midi\This Game (1)_1.xml", 0, motors.ToArray())
-                    );
-                case "The Incredibles":
-                    return await MidiPlayer.LoadTrackConfigs(
-                        1.25,
-                        new TrackConfig(@"assets\midi\The_Incredibles_0.xml", -1, motors[0]),
-                        new TrackConfig(@"assets\midi\The_Incredibles_1.xml", 0, motors[1]),
-                        new TrackConfig(@"assets\midi\The_Incredibles_2.xml", 0, motors[2]),
-                        new TrackConfig(@"assets\midi\The_Incredibles_3.xml", 0, motors[3]),
-                        new TrackConfig(@"assets\midi\The_Incredibles_4.xml", 0, motors[4]),
-                        new TrackConfig(@"assets\midi\The_Incredibles_5.xml", 0, motors[5]),
-                        //new TrackConfig(@"assets\midi\The_Incredibles_6.xml", 0, motors[6]),
-                        new TrackConfig(@"assets\midi\The_Incredibles_7.xml", 0, motors[6]),
-                        //new TrackConfig(@"assets\midi\The_Incredibles_8.xml", 0, motors[8]),
-                        new TrackConfig(@"assets\midi\The_Incredibles_9.xml", 0, motors[7])
-                    );
-            }
-
-            return player;
-        }
 
         private async void playButton_Click(object sender, RoutedEventArgs e)
         {
@@ -238,7 +214,7 @@ namespace FloppyDJ
                     await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                     {
                         playButtonTextBlock.Text = "\xE71A";
-                        statusTextBlock.Text = "Playing";
+                        //statusTextBlock.Text = "Playing";
                         enableControls(false);
                     });
 
@@ -246,6 +222,7 @@ namespace FloppyDJ
                     ThreadPool.RunAsync((s1) =>
                     {
                         player.Play();
+                        Debug.WriteLine("Stopped playing.");
                     }, WorkItemPriority.High);
 #pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
                 }
@@ -254,11 +231,12 @@ namespace FloppyDJ
                     await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                     {
                         playButtonTextBlock.Text = "\xE768";
-                        statusTextBlock.Text = "Stopped";
+                        //statusTextBlock.Text = "Stopped";
                         enableControls(true);
                     });
 
                     player.Stop();
+                    resetAllMotors();
                 }
             }, WorkItemPriority.High);
         }
@@ -277,19 +255,43 @@ namespace FloppyDJ
 
         private void resetAllButton_Click(object sender, RoutedEventArgs e)
         {
-            foreach(StepperMotor motor in motors)
+            resetAllMotors();
+            resetOctaveOffsets();
+            resetMute();
+        }
+
+        private async void resetAllMotors()
+        {
+            List<IAsyncAction> tasks = new List<IAsyncAction>();
+            foreach (StepperMotor motor in motors)
             {
 #pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
-                ThreadPool.RunAsync((s) =>
+                tasks.Add(ThreadPool.RunAsync((s) =>
                 {
                     motor.Reset();
-                }, WorkItemPriority.High);
+                }, WorkItemPriority.High));
 #pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
             }
 
-            foreach(Slider slider in sliders)
+            foreach(IAsyncAction task in tasks)
             {
-                slider.Value = -1;
+                await task;
+            }
+        }
+
+        private void resetOctaveOffsets()
+        {
+            foreach (StepperMotor motor in motors)
+            {
+                motor.OctaveOffset = -1;
+            }
+        }
+
+        private void resetMute()
+        {
+            foreach (StepperMotor motor in motors)
+            {
+                motor.Mute = false;
             }
         }
 
@@ -299,8 +301,21 @@ namespace FloppyDJ
 
             if (songName != null)
             {
+                currentSong = songName;
+
+                resetOctaveOffsets();
+                resetMute();
                 resetPlayer();
-                player = await LoadSong(songName);
+
+                player = await MidiPlayer.LoadConfig(songName, motors.ToArray());
+                player.StateChanged += async (s, args) =>
+                {
+                    await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                    {
+                        statusTextBlock.Text = (player.IsPlaying) ? "Playing" : "Stopped";
+                    });
+                };
+
                 statusTextBlock.Text = (player != null) ? "Loaded: " + songName : "";
                 playButton.IsEnabled = true;
             }

@@ -9,16 +9,16 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Floppy Drive DJ" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Margin="20" FontWeight="Light" FontSize="60"/>
-        <Grid Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" >
+        <TextBlock Text="Floppy Drive DJ" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Margin="20,30,20,20" FontWeight="Light" FontSize="60"/>
+        <Grid Grid.Column="0" Grid.Row="1" Grid.RowSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>

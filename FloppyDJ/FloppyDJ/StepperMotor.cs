@@ -16,6 +16,9 @@ namespace FloppyDJ
 
     public class StepperMotor
     {
+        public event EventHandler OctaveOffsetChanged;
+        public event EventHandler MuteChanged;
+
         public string Name { get; set; }
         public GpioPin StepPin, DirectionPin;
         public double Speed   // Speed is in steps per second
@@ -43,9 +46,37 @@ namespace FloppyDJ
         }
 
         public long DirChangeSteps = 50;
-        public int OctaveOffset = 0;
+        public int OctaveOffset
+        {
+            get
+            {
+                return _octaveOffset;
+            }
+
+            set
+            {
+                _octaveOffset = value;
+                OnOctaveOffsetChanged(new EventArgs());
+            }
+        }
+
+        public bool Mute
+        {
+            get
+            {
+                return _mute;
+            }
+
+            set
+            {
+                _mute = value;
+                OnMuteChanged(new EventArgs());
+            }
+        }
 
         private double _speed;
+        private int _octaveOffset = 0;
+        private bool _mute = false;
 
         public SpinDirection Direction
         {
@@ -117,10 +148,13 @@ namespace FloppyDJ
 
         public void Step()
         {
-            StepPin.Write(GpioPinValue.High);
-            StepPin.Write(GpioPinValue.Low);
+            if (!Mute)
+            {
+                StepPin.Write(GpioPinValue.High);
+                StepPin.Write(GpioPinValue.Low);
 
-            stepsTaken++;
+                stepsTaken++;
+            }
         }
 
         public void ChangeDirection()
@@ -149,6 +183,16 @@ namespace FloppyDJ
             }
 
             return false;
+        }
+
+        protected virtual void OnOctaveOffsetChanged(EventArgs e)
+        {
+            OctaveOffsetChanged?.Invoke(this, e);
+        }
+
+        protected virtual void OnMuteChanged(EventArgs e)
+        {
+            MuteChanged?.Invoke(this, e);
         }
     }
 }
