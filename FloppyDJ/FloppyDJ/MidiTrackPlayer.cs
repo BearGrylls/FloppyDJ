@@ -68,6 +68,7 @@ namespace FloppyDJ
         public void Reset()
         {
             Track = new Queue<SeqData>(data);
+            Done = false;
         }
 
         public void Play(long tick)

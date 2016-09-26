@@ -136,8 +136,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Midi\a-ha - take on me %284%29_11.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Midi\a-ha - take on me %284%29_12.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -316,6 +316,28 @@
     <Content Include="Assets\Midi\ff8boss_9.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_0.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_1.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_10.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_11.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_12.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_13.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_14.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_15.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_2.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_3.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_4.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_5.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_6.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_7.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_8.xml" />
+    <Content Include="Assets\Midi\Final_Fantasy_VIII_-_Force_Your_Way_9.xml" />
+    <Content Include="Assets\Midi\Flight of the Bumblebee_0.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Flight of the Bumblebee_1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Midi\gameofthrones_1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -326,6 +348,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Midi\gameofthrones_4.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Game_of_Thrones_Theme_0.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Game_of_Thrones_Theme_1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Game_of_Thrones_Theme_2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Game_of_Thrones_Theme_3.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Midi\Guren_no_Yumiya_Finished__0.xml">
@@ -358,6 +392,18 @@
     <Content Include="Assets\Midi\Hexabass_Star_Wars_Medley_5.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\Horn_Rangers_0.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Horn_Rangers_1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Horn_Rangers_2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Horn_Rangers_3.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Midi\Hyrule_Temple_0.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -370,6 +416,11 @@
     <Content Include="Assets\Midi\Hyrule_Temple_3.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\I am the Doctor_0.xml" />
+    <Content Include="Assets\Midi\I am the Doctor_1.xml" />
+    <Content Include="Assets\Midi\I am the Doctor_2.xml" />
+    <Content Include="Assets\Midi\I am the Doctor_3.xml" />
+    <Content Include="Assets\Midi\I am the Doctor_4.xml" />
     <Content Include="Assets\Midi\jurassicpark_1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -388,6 +439,10 @@
     <Content Include="Assets\Midi\jurassicpark_6.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_0.xml" />
+    <Content Include="Assets\Midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_1.xml" />
+    <Content Include="Assets\Midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_2.xml" />
+    <Content Include="Assets\Midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_3.xml" />
     <Content Include="Assets\Midi\Michael_Jackson_-_Billie_Jean_1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -412,6 +467,10 @@
     <Content Include="Assets\Midi\Michael_Jackson_-_Billie_Jean_8.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\MK_Theme_0.xml" />
+    <Content Include="Assets\Midi\MK_Theme_1.xml" />
+    <Content Include="Assets\Midi\MK_Theme_2.xml" />
+    <Content Include="Assets\Midi\MK_Theme_3.xml" />
     <Content Include="Assets\Midi\Movie_Themes_-_Star_Wars_-_by_John_Willams_1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -557,9 +616,13 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Midi\Scales_0.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\SongOfStorms_0.xml" />
+    <Content Include="Assets\Midi\SongOfStorms_1.xml" />
+    <Content Include="Assets\Midi\SongOfStorms_2.xml" />
+    <Content Include="Assets\Midi\SongOfStorms_3.xml" />
     <Content Include="Assets\Midi\starwars_1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -591,8 +654,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Midi\starwars_8.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Midi\starwars_9.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -657,10 +720,18 @@
     <Content Include="Assets\Midi\Star_Wars_Medley %282%29_9.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Midi\Star_Wars_Medley_0.xml" />
-    <Content Include="Assets\Midi\Star_Wars_Medley_1.xml" />
-    <Content Include="Assets\Midi\Star_Wars_Medley_2.xml" />
-    <Content Include="Assets\Midi\Star_Wars_Medley_3.xml" />
+    <Content Include="Assets\Midi\Star_Wars_Medley_0.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Star_Wars_Medley_1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Star_Wars_Medley_2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Star_Wars_Medley_3.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Midi\Supreme_Star_Wars_Medley_0.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -736,6 +807,21 @@
     <Content Include="Assets\Midi\This Game %281%29_1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\Through_The_Fire_and_The_Flames_0.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Through_The_Fire_and_The_Flames_1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Through_The_Fire_and_The_Flames_2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Through_The_Fire_and_The_Flames_3.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Through_The_Fire_and_The_Flames_4.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Midi\Trainer_Battle_Theme_0.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -748,6 +834,10 @@
     <Content Include="Assets\Midi\Trainer_Battle_Theme_3.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\Undertale_-_Megalovania_0.xml" />
+    <Content Include="Assets\Midi\Undertale_-_Megalovania_1.xml" />
+    <Content Include="Assets\Midi\Undertale_-_Megalovania_2.xml" />
+    <Content Include="Assets\Midi\Undertale_-_Megalovania_3.xml" />
     <Content Include="Assets\Midi\Videogame_Medley__0.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -758,6 +848,27 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Midi\Videogame_Medley__3.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Video_Game_Symphony_0.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Video_Game_Symphony_1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Video_Game_Symphony_2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Video_Game_Symphony_3.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Video_Game_Symphony_4.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Video_Game_Symphony_5.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Midi\Video_Game_Symphony_6.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Midi\What_is_Love_1.xml">

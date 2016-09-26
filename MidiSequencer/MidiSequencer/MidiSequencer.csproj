@@ -69,7 +69,15 @@
     <Content Include="MidiFiles\a-ha - take on me %284%29.mid" />
     <Content Include="MidiFiles\a-ha - take on me.mid" />
     <Content Include="MidiFiles\Daft_Punk_Medley.mid" />
-    <Content Include="MidiFiles\Disney_Medley.mid" />
+    <Content Include="MidiFiles\Disney_Medley.mid">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MidiFiles\Game_of_Thrones.mid">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MidiFiles\Game_of_Thrones_Theme.mid">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="MidiFiles\Gotta catch %27em all.mid">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -90,6 +98,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="MidiFiles\This Game %281%29.mid" />
+    <Content Include="MidiFiles\Videogame_Medley_for_string_Quartet.mid" />
+    <Content Include="MidiFiles\Video_Game_Symphony.mid">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="MidiFiles\What_is_Love.mid" />
     <Content Include="MidiFiles\Hyrule_Temple.mid" />
     <Content Include="MidiFiles\Save_The_WorldDont_You_Worry_Child.mid" />

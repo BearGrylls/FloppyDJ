@@ -31,7 +31,6 @@ namespace FloppyDJ
         ObservableCollection<string> songs;
         List<Button> testButtons;
         List<Slider> sliders;
-        string currentSong;
 
         public MainPage()
         {
@@ -113,7 +112,8 @@ namespace FloppyDJ
                 var testButton = new Button()
                 {
                     Content = "Test",
-                    Margin = new Thickness(10)
+                    Margin = new Thickness(10),
+                    Width = 100
                 };
                 testButton.Click += async (s, args) =>
                 {
@@ -178,46 +178,16 @@ namespace FloppyDJ
 
             resetAllMotors();
 
-            songs = new ObservableCollection<string>()
-            {
-                "Hyrule Temple",
-                "Trainer Battle",
-                "Pokemon",
-                "Decisive Battle",
-                "What is Love",
-                "Pentatonix - Save the World / Don't You Worry Child",
-                "Take On Me",
-                "Jurassic Park",
-                "Take On Me (2)",
-                "Billie Jean",
-                "Star Wars Medley",
-                "Supreme Star Wars Medley",
-                "Star Wars",
-                "Star Wars (Hexabass)",
-                "Star Wars (Trombone)",
-                "John Williams - Star Wars",
-                "The Incredibles",
-                "Attack on Titan - Guren No Yumiya"
-            };
-
+            songs = new ObservableCollection<string>(MidiConfig.Configs.Keys.ToArray());
             songListView.ItemsSource = songs;
         }
 
         private async void playButton_Click(object sender, RoutedEventArgs e)
         {
-            if (player == null) return;
-
-            await ThreadPool.RunAsync(async (s) =>
+            await ThreadPool.RunAsync((s) =>
             {
                 if (!player.IsPlaying)
                 {
-                    await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
-                    {
-                        playButtonTextBlock.Text = "\xE71A";
-                        //statusTextBlock.Text = "Playing";
-                        enableControls(false);
-                    });
-
 #pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
                     ThreadPool.RunAsync((s1) =>
                     {
@@ -228,24 +198,30 @@ namespace FloppyDJ
                 }
                 else
                 {
-                    await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
-                    {
-                        playButtonTextBlock.Text = "\xE768";
-                        //statusTextBlock.Text = "Stopped";
-                        enableControls(true);
-                    });
+                    displayStatus("Stopping...");
 
                     player.Stop();
                     resetAllMotors();
                 }
+
+                updateUI();
+
             }, WorkItemPriority.High);
+        }
+
+        private async void displayStatus(string text)
+        {
+            await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+            {
+                statusTextBlock.Text = text;
+            });
         }
 
         private async void enableControls(bool isEnabled)
         {
             await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
             {
-                songListView.IsEnabled = resetAllButton.IsEnabled = isEnabled;
+                speedSlider.IsEnabled = songListView.IsEnabled = resetAllButton.IsEnabled = isEnabled;
                 foreach (Button button in testButtons)
                 {
                     button.IsEnabled = isEnabled;
@@ -297,27 +273,65 @@ namespace FloppyDJ
 
         private async void songListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var songName = songListView.SelectedItem as string;
-
-            if (songName != null)
+            if (player == null || !player.IsPlaying)
             {
-                currentSong = songName;
-
-                resetOctaveOffsets();
-                resetMute();
-                resetPlayer();
-
-                player = await MidiPlayer.LoadConfig(songName, motors.ToArray());
-                player.StateChanged += async (s, args) =>
+                var sel = songListView.SelectedItem as string;
+                if (sel != null)
                 {
-                    await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
-                    {
-                        statusTextBlock.Text = (player.IsPlaying) ? "Playing" : "Stopped";
-                    });
-                };
+                    displayStatus("Loading...");
 
-                statusTextBlock.Text = (player != null) ? "Loaded: " + songName : "";
-                playButton.IsEnabled = true;
+                    resetOctaveOffsets();
+                    resetMute();
+                    resetPlayer();
+
+                    player = await MidiPlayer.LoadConfig(sel, motors.ToArray());
+                    if (player != null)
+                    {
+                        player.StateChanged += (s, args) =>
+                        {
+                            updateUI();
+                        };
+                        player.SpeedChanged += (s, args) =>
+                        {
+                            updateUI();
+                        };
+
+                        updateUI();
+
+                        statusTextBlock.Text = (player != null) ? "Loaded: " + sel : "";
+                    }
+                    else
+                    {
+                        statusTextBlock.Text = "Error loading " + sel;
+                    }
+                }
+                else
+                {
+                    displayStatus("No song selected.");
+                }
+            }
+            playButton.IsEnabled = true;
+        }
+
+        private async void updateUI()
+        {
+            await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+            {
+                if (player != null)
+                {
+                    statusTextBlock.Text = (player.IsPlaying) ? "Playing" : "Stopped";
+                    enableControls(!player.IsPlaying);
+                    playButtonTextBlock.Text = (player.IsPlaying) ? "\xE71A" : "\xE768";
+                    speedSlider.Value = player.PlaySpeed;
+                }
+            });
+        }
+
+        private void speedSlider_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            if (player != null)
+            {
+                player.PlaySpeed = speedSlider.Value;
             }
         }
     }

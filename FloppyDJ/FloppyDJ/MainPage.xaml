@@ -48,13 +48,15 @@
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" Text="Song List" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="42.667" FontWeight="Light" Margin="20"/>
-            <ListView x:Name="songListView" Grid.Row="1" Margin="20" SelectionChanged="songListView_SelectionChanged"/>
+            <ListView x:Name="songListView" Grid.Row="1" Margin="20" SelectionChanged="songListView_SelectionChanged" ScrollViewer.VerticalScrollBarVisibility="Visible"/>
             <StackPanel Grid.Row="2">
                 <TextBlock x:Name="statusTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="None" VerticalAlignment="Top" FontSize="42.667" FontWeight="Light" Margin="20"/>
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="playButton" HorizontalAlignment="Left" Margin="20" VerticalAlignment="Top" FontSize="32" Height="72" Width="161" Click="playButton_Click">
                         <TextBlock x:Name="playButtonTextBlock"  Text="&#xE768;" FontFamily="Segoe MDL2 Assets"/>
                     </Button>
+                    <TextBlock Text="Speed" VerticalAlignment="Center" FontSize="35" Margin="20" Height="57" FontWeight="Light"/>
+                    <Slider x:Name="speedSlider" Width="197" Maximum="5" Value="1" VerticalAlignment="Center" Margin="0,20,20,20" ValueChanged="speedSlider_ValueChanged" StepFrequency="0.05"/>
                 </StackPanel>
             </StackPanel>
         </Grid>

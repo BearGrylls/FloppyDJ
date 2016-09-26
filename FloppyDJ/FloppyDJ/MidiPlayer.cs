@@ -13,8 +13,22 @@ namespace FloppyDJ
     public class MidiPlayer
     {
         public event EventHandler StateChanged;
+        public event EventHandler SpeedChanged;
+
         public List<MidiTrackPlayer> Tracks = new List<MidiTrackPlayer>();
-        public double PlaySpeed = 1;
+        public double PlaySpeed
+        {
+            get
+            {
+                return _playSpeed;
+            }
+
+            set
+            {
+                _playSpeed = value;
+                OnSpeedChanged(new EventArgs());
+            }
+        }
         public bool IsPlaying
         {
             get
@@ -32,6 +46,7 @@ namespace FloppyDJ
         private bool stop = true;
         private MidiConfig Config;
         private bool _isPlaying = false;
+        private double _playSpeed = 1;
 
         public async static Task<MidiPlayer> LoadConfig(MidiConfig config, StepperMotor[] motors, bool fillParts)
         {
@@ -156,7 +171,7 @@ namespace FloppyDJ
 
             stop = false;
 
-            if (speed < 0) speed = PlaySpeed;
+            if (speed > 0) PlaySpeed = speed;
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
@@ -166,7 +181,7 @@ namespace FloppyDJ
                 int count = 0;
                 foreach (MidiTrackPlayer track in Tracks)
                 {
-                    track.Play((long)(stopwatch.ElapsedMilliseconds * speed));
+                    track.Play((long)(stopwatch.ElapsedMilliseconds * PlaySpeed));
                     if (track.Done)
                     {
                         count++;
@@ -175,17 +190,21 @@ namespace FloppyDJ
 
                 if (count == Tracks.Count)
                 {
-                    IsPlaying = false;
-                    return;
+                    break;
                 }
             }
+            
+            IsPlaying = false;
+            Reset();
+        }
+
+        public void Reset()
+        {
 
             foreach (MidiTrackPlayer track in Tracks)
             {
                 track.Reset();
             }
-
-            IsPlaying = false;
         }
 
         public void PlayGlobal(double speed = -1)
@@ -243,6 +262,11 @@ namespace FloppyDJ
         protected virtual void OnStateChanged(EventArgs e)
         {
             StateChanged?.Invoke(this, e);
+        }
+
+        protected virtual void OnSpeedChanged(EventArgs e)
+        {
+            SpeedChanged?.Invoke(this, e);
         }
     }
 }
