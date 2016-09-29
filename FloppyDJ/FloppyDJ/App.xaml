@@ -10,6 +10,8 @@
             <SolidColorBrush x:Key="SystemControlForegroundAccentBrush" Color="#FF007ACC" />
             <SolidColorBrush x:Key="SystemControlHighlightAccentBrush" Color="#FF007ACC" />
             <SolidColorBrush x:Key="SystemControlHighlightListAccentLowBrush" Color="#FF007ACC" />
+            <SolidColorBrush x:Key="SystemControlHighlightListAccentMediumBrush" Color="#FF007ACC" />
+            <SolidColorBrush x:Key="ToggleSwitchFillOnPointerOver" Color="#FF007ACC" />
         </ResourceDictionary>
     </Application.Resources>
 

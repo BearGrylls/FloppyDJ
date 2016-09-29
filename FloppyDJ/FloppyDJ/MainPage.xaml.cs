@@ -116,7 +116,7 @@ namespace FloppyDJ
                 {
                     Content = "Test",
                     Margin = new Thickness(10),
-                    Width = 100
+                    Width = 100,
                 };
                 testButton.Click += async (s, args) =>
                 {
@@ -152,7 +152,8 @@ namespace FloppyDJ
                     Minimum = -5,
                     Value = motor.OctaveOffset,
                     Margin = new Thickness(10),
-                    Width = 150
+                    Width = 150,
+                    Header = "Octave Adjust"
                 };
                 octaveSlider.ValueChanged += (s, args) =>
                 {
