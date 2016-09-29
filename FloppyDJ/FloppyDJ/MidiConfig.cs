@@ -17,6 +17,15 @@ namespace FloppyDJ
         public double PlaySpeed = 1.0;
         public static Dictionary<string, MidiConfig> Configs = new Dictionary<string, MidiConfig>()
         {
+            { "Undertale - Megalovania", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\Undertale_-_Megalovania_0.xml",
+                        @"assets\midi\Undertale_-_Megalovania_1.xml",
+                        @"assets\midi\Undertale_-_Megalovania_2.xml",
+                        @"assets\midi\Undertale_-_Megalovania_3.xml",
+                    },
+                    new int[] { }, 1 ) },
+
             { "Hyrule Temple", new MidiConfig(new string[]
                     {
                         @"assets\midi\Hyrule_Temple_0.xml",
@@ -33,7 +42,7 @@ namespace FloppyDJ
                         @"assets\midi\Trainer_Battle_Theme_2.xml",
                         @"assets\midi\Trainer_Battle_Theme_3.xml",
                     },
-                    new int[] {  }, 1.25) },
+                    new int[] { -2, -1, -1, -1 }, 1.25) },
 
             { "Pokemon", new MidiConfig(new string[]
                     {
@@ -53,7 +62,133 @@ namespace FloppyDJ
                     },
                     new int[] { }, 1.5) },
 
-            { "What is Love", new MidiConfig(new string[]
+            { "Mortal Kombat Theme", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\MK_Theme_0.xml",
+                        @"assets\midi\MK_Theme_1.xml",
+                        @"assets\midi\MK_Theme_2.xml",
+                        @"assets\midi\MK_Theme_3.xml",
+                    },
+                    new int[] { -2, -2, -2, -2 }, 1) },
+
+            { "Doctor Who - I am the Doctor", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\I am the Doctor_0.xml",
+                        @"assets\midi\I am the Doctor_1.xml",
+                        @"assets\midi\I am the Doctor_2.xml",
+                        @"assets\midi\I am the Doctor_3.xml",
+                        @"assets\midi\I am the Doctor_4.xml",
+                    },
+                    new int[] { 0, 0, 0, 0, 0 }, 1.25 ) },
+
+            { "Dimrain47 - Forsaken Neon", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\Forsaken_Neon_by_Dimrain47_0.xml",
+                        @"assets\midi\Forsaken_Neon_by_Dimrain47_1.xml",
+                        @"assets\midi\Forsaken_Neon_by_Dimrain47_2.xml",
+                    },
+                    new int[] { -1, -2, -2 }, 1) },
+
+            { "Journey - Don't Stop Believing", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\Dont_Stop_Believing_0.xml",
+                        @"assets\midi\Dont_Stop_Believing_1.xml",
+                        @"assets\midi\Dont_Stop_Believing_2.xml",
+                        @"assets\midi\Dont_Stop_Believing_3.xml",
+                    },
+                    new int[] {-1, -1, 0, 0 }, 1) },
+
+            { "Phoenix Wright - Pursuit Cornered", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\Pursuit__Cornered_0.xml",
+                        @"assets\midi\Pursuit__Cornered_1.xml",
+                        @"assets\midi\Pursuit__Cornered_2.xml",
+                        @"assets\midi\Pursuit__Cornered_3.xml",
+                        @"assets\midi\Pursuit__Cornered_4.xml",
+                        @"assets\midi\Pursuit__Cornered_5.xml",
+                        @"assets\midi\Pursuit__Cornered_6.xml",
+                        @"assets\midi\Pursuit__Cornered_7.xml",
+                    },
+                    new int[] { }, 1.2) },
+
+            { "Power Rangers", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\Horn_Rangers_0.xml",
+                        @"assets\midi\Horn_Rangers_1.xml",
+                        @"assets\midi\Horn_Rangers_2.xml",
+                        @"assets\midi\Horn_Rangers_3.xml",
+                    },
+                    new int[] { }, 1.5 ) },
+
+            { "Ocarina of Time - Song of Storms", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\SongOfStorms_0.xml",
+                        @"assets\midi\SongOfStorms_1.xml",
+                        @"assets\midi\SongOfStorms_2.xml",
+                        @"assets\midi\SongOfStorms_3.xml",
+                    },
+                    new int[] { }, 1 ) },
+
+            { "Final Fantasy VII Battle Theme", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_0.xml",
+                        @"assets\midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_1.xml",
+                        @"assets\midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_2.xml",
+                        @"assets\midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_3.xml",
+                    },
+                    new int[] { -2 }, 0.9 ) },
+
+            { "Mulan - I'll Make a Man Out of You", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\Ill_Make_a_Man_out_of_You_0.xml",
+                        @"assets\midi\Ill_Make_a_Man_out_of_You_1.xml",
+                        @"assets\midi\Ill_Make_a_Man_out_of_You_2.xml",
+                        @"assets\midi\Ill_Make_a_Man_out_of_You_3.xml",
+                    },
+                    new int[] { -1, 0, 0, 0 }, 1 ) },
+
+            { "Portal - Still Alive", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\Still_Alive_0.xml",
+                        @"assets\midi\Still_Alive_1.xml",
+                        @"assets\midi\Still_Alive_2.xml",
+                        @"assets\midi\Still_Alive_3.xml",
+                    },
+                    new int[] { -1, -1, -2, -1 }, 1 ) },
+
+            { "Street Fighter - Guile Theme", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\Street_Fighter_II_Guile_Theme_0.xml",
+                        @"assets\midi\Street_Fighter_II_Guile_Theme_1.xml",
+                        @"assets\midi\Street_Fighter_II_Guile_Theme_2.xml",
+                        @"assets\midi\Street_Fighter_II_Guile_Theme_3.xml",
+                    },
+                    new int[] { -2, -1, -1, -1 }, 1 ) },
+
+            { "The Flash", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\The_Flash_Main_Theme_0.xml",
+                        @"assets\midi\The_Flash_Main_Theme_0.xml",
+                        @"assets\midi\The_Flash_Main_Theme_1.xml",
+                        @"assets\midi\The_Flash_Main_Theme_2.xml",
+                        @"assets\midi\The_Flash_Main_Theme_3.xml",
+                    },
+                    new int[] { -2, -1, -1, -1, -1 }, 1) },
+
+            { "The Incredibles", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\The_Incredibles_0.xml",
+                        @"assets\midi\The_Incredibles_1.xml",
+                        @"assets\midi\The_Incredibles_2.xml",
+                        @"assets\midi\The_Incredibles_3.xml",
+                        @"assets\midi\The_Incredibles_4.xml",
+                        @"assets\midi\The_Incredibles_5.xml",
+                        @"assets\midi\The_Incredibles_7.xml",
+                        @"assets\midi\The_Incredibles_9.xml",
+                    },
+                    new int[] { -2, -2, -2, -1, -1, -1, -1, -1 }, 1.25) },
+
+            { "Haddaway - What is Love", new MidiConfig(new string[]
                     {
                         @"assets\midi\What_is_Love_4.xml",  // Singing
                         @"assets\midi\What_is_Love_2.xml",  // Synth bass
@@ -68,12 +203,6 @@ namespace FloppyDJ
                     },
                     new int[] { }, 0.9) },
 
-            { "Scales", new MidiConfig(new string[]
-                    {
-                        @"assets\midi\Scales_0.xml",
-                    },
-                    new int[] { }, 1.0) },
-
             { "Pentatonix - Save the World / Don't You Worry Child", new MidiConfig(new string[]
                     {
                         @"assets\midi\Save_The_WorldDont_You_Worry_Child_1.xml",
@@ -83,7 +212,7 @@ namespace FloppyDJ
                     },
                     new int[] { }, 1.1) },
 
-            { "Take On Me", new MidiConfig(new string[]
+            { "a-ha - Take On Me", new MidiConfig(new string[]
                     {
                         @"assets\midi\Take_On_Me_0.xml",
                         @"assets\midi\Take_On_Me_1.xml",
@@ -122,7 +251,7 @@ namespace FloppyDJ
             //        },
             //        new int[] { }, 0.25) },
 
-            { "Billie Jean", new MidiConfig(new string[]
+            { "Michael Jackson - Billie Jean", new MidiConfig(new string[]
                     {
                         @"assets\midi\Michael_Jackson_-_Billie_Jean_1.xml",
                         @"assets\midi\Michael_Jackson_-_Billie_Jean_7.xml",
@@ -133,7 +262,7 @@ namespace FloppyDJ
                         @"assets\midi\Michael_Jackson_-_Billie_Jean_5.xml",
                         @"assets\midi\Michael_Jackson_-_Billie_Jean_8.xml",
                     },
-                    new int[] { }, 0.45) },
+                    new int[] { -1, 0, -1, 0, -1, -1, -1, -1 }, 0.45) },
 
             { "Star Wars Medley", new MidiConfig(new string[]
                     {
@@ -251,19 +380,6 @@ namespace FloppyDJ
                     },
                     new int[] {-2, -2, -2, 0 }, 0.75) },
 
-            { "The Incredibles", new MidiConfig(new string[]
-                    {
-                        @"assets\midi\The_Incredibles_0.xml",
-                        @"assets\midi\The_Incredibles_1.xml",
-                        @"assets\midi\The_Incredibles_2.xml",
-                        @"assets\midi\The_Incredibles_3.xml",
-                        @"assets\midi\The_Incredibles_4.xml",
-                        @"assets\midi\The_Incredibles_5.xml",
-                        @"assets\midi\The_Incredibles_7.xml",
-                        @"assets\midi\The_Incredibles_9.xml",
-                    },
-                    new int[] { -2, -2, -2, -1, -1, -1, -1, -1 }, 1.25) },
-
             { "Flight of the Bumblebee", new MidiConfig(new string[]
                     {
                         @"assets\midi\Flight of the Bumblebee_0.xml",
@@ -271,7 +387,7 @@ namespace FloppyDJ
                     },
                     new int[] { -2, -1 }, 1.25) },
 
-            { "Through the Fire and the Flames", new MidiConfig(new string[]
+            { "DragonForce - Through the Fire and the Flames", new MidiConfig(new string[]
                     {
                         @"assets\midi\Through_The_Fire_and_The_Flames_0.xml",
                         @"assets\midi\Through_The_Fire_and_The_Flames_1.xml",
@@ -280,6 +396,21 @@ namespace FloppyDJ
                         @"assets\midi\Through_The_Fire_and_The_Flames_4.xml",
                     },
                     new int[] { -2, -2, -1, -1, -1 }, 1.5) },
+
+            //{ "Fairy Tail Main Theme", new MidiConfig(new string[]
+            //        {
+            //            @"assets\midi\Fairy_Tail_Main_Theme_brass_0.xml",
+            //            @"assets\midi\Fairy_Tail_Main_Theme_brass_1.xml",
+            //            @"assets\midi\Fairy_Tail_Main_Theme_brass_2.xml",
+            //            @"assets\midi\Fairy_Tail_Main_Theme_brass_3.xml",
+            //        },
+            //        new int[] { }, 1.1) },
+
+            { "Scales", new MidiConfig(new string[]
+                    {
+                        @"assets\midi\Scales_0.xml",
+                    },
+                    new int[] { }, 1.0) },
 
             //{ "Final Fantasy VIII - Force Your Way", new MidiConfig(new string[]
             //        {
@@ -301,61 +432,6 @@ namespace FloppyDJ
             //            @"assets\midi\Final_Fantasy_VIII_-_Force_Your_Way_2.xml",   // Drums
             //        },
             //        new int[] { }, 1) },
-
-            { "Mortal Kombat Theme", new MidiConfig(new string[]
-                    {
-                        @"assets\midi\MK_Theme_0.xml",
-                        @"assets\midi\MK_Theme_1.xml",
-                        @"assets\midi\MK_Theme_2.xml",
-                        @"assets\midi\MK_Theme_3.xml",
-                    },
-                    new int[] { -2, -2, -2, -2 }, 1) },
-
-            { "Doctor Who - I am the Doctor", new MidiConfig(new string[]
-                    {
-                        @"assets\midi\I am the Doctor_0.xml",
-                        @"assets\midi\I am the Doctor_1.xml",
-                        @"assets\midi\I am the Doctor_2.xml",
-                        @"assets\midi\I am the Doctor_3.xml",
-                        @"assets\midi\I am the Doctor_4.xml",
-                    },
-                    new int[] { 0, 0, 0, 0, 0 }, 1.25 ) },
-
-            { "Power Rangers", new MidiConfig(new string[]
-                    {
-                        @"assets\midi\Horn_Rangers_0.xml",
-                        @"assets\midi\Horn_Rangers_1.xml",
-                        @"assets\midi\Horn_Rangers_2.xml",
-                        @"assets\midi\Horn_Rangers_3.xml",
-                    },
-                    new int[] { }, 1.5 ) },
-
-            { "Undertale - Megalovania", new MidiConfig(new string[]
-                    {
-                        @"assets\midi\Undertale_-_Megalovania_0.xml",
-                        @"assets\midi\Undertale_-_Megalovania_1.xml",
-                        @"assets\midi\Undertale_-_Megalovania_2.xml",
-                        @"assets\midi\Undertale_-_Megalovania_3.xml",
-                    },
-                    new int[] { }, 1 ) },
-
-            { "Ocarina of Time - Song of Storms", new MidiConfig(new string[]
-                    {
-                        @"assets\midi\SongOfStorms_0.xml",
-                        @"assets\midi\SongOfStorms_1.xml",
-                        @"assets\midi\SongOfStorms_2.xml",
-                        @"assets\midi\SongOfStorms_3.xml",
-                    },
-                    new int[] { }, 1 ) },
-
-            { "Final Fantasy VII Battle Theme", new MidiConfig(new string[]
-                    {
-                        @"assets\midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_0.xml",
-                        @"assets\midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_1.xml",
-                        @"assets\midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_2.xml",
-                        @"assets\midi\Let_the_Battles_Begin_Final_Fantasy_VII_Battle_Theme_for_Brass_Quartet_3.xml",
-                    },
-                    new int[] { -2 }, 0.9 ) },
         };
 
         public MidiConfig(string[] files, int[] octaveOffsets, double playSpeed)

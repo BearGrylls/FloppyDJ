@@ -19,6 +19,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.Devices;
+using Windows.UI.Text;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -106,7 +107,9 @@ namespace FloppyDJ
                 {
                     Text = motor.Name,
                     Margin = new Thickness(10),
-                    VerticalAlignment = VerticalAlignment.Center
+                    VerticalAlignment = VerticalAlignment.Center,
+                    FontSize = 28,
+                    FontWeight = FontWeights.Light
                 };
 
                 var testButton = new Button()
@@ -119,30 +122,27 @@ namespace FloppyDJ
                 {
                     await ThreadPool.RunAsync(async (s1) =>
                     {
-                        resetPlayer();
                         MidiPlayer scalePlayer = await MidiPlayer.LoadConfig("Scales", new StepperMotor[] { motor });
                         scalePlayer.Play();
                     }, WorkItemPriority.Normal);
                 };
                 testButtons.Add(testButton);
 
-                var muteButton = new Button()
+                var muteToggle = new ToggleSwitch()
                 {
-                    Content = "Mute",
-                    Margin = new Thickness(10),
-                    Width = 100
+                    IsOn = true,
+                    Margin = new Thickness(10)
                 };
-                muteButton.Click += (s, args) =>
+                muteToggle.Toggled += (s, args) =>
                 {
-                    motor.Mute = !motor.Mute;
-                    muteButton.Content = (motor.Mute) ? "Unmute" : "Mute";
+                    motor.Mute = !muteToggle.IsOn;
                 };
 
                 motor.MuteChanged += async (s, args) =>
                 {
                     await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                     {
-                        muteButton.Content = (motor.Mute) ? "Unmute" : "Mute";
+                        muteToggle.IsOn = !motor.Mute;
                     });
                 };
 
@@ -170,7 +170,7 @@ namespace FloppyDJ
 
                 stackPanel.Children.Add(textblock);
                 stackPanel.Children.Add(testButton);
-                stackPanel.Children.Add(muteButton);
+                stackPanel.Children.Add(muteToggle);
                 stackPanel.Children.Add(octaveSlider);
 
                 driveStackPanel.Children.Add(stackPanel);
@@ -180,6 +180,8 @@ namespace FloppyDJ
 
             songs = new ObservableCollection<string>(MidiConfig.Configs.Keys.ToArray());
             songListView.ItemsSource = songs;
+
+            songListView.SelectedIndex = 0;
         }
 
         private async void playButton_Click(object sender, RoutedEventArgs e)

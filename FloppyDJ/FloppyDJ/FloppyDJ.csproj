@@ -12,7 +12,7 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <TargetPlatformMinVersion>10.0.14393.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
@@ -271,6 +271,10 @@
     <Content Include="Assets\Midi\dontbeafraid_9.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\Dont_Stop_Believing_0.xml" />
+    <Content Include="Assets\Midi\Dont_Stop_Believing_1.xml" />
+    <Content Include="Assets\Midi\Dont_Stop_Believing_2.xml" />
+    <Content Include="Assets\Midi\Dont_Stop_Believing_3.xml" />
     <Content Include="Assets\Midi\dragonforce_11.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -283,6 +287,10 @@
     <Content Include="Assets\Midi\dragonforce_8.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\Fairy_Tail_Main_Theme_brass_0.xml" />
+    <Content Include="Assets\Midi\Fairy_Tail_Main_Theme_brass_1.xml" />
+    <Content Include="Assets\Midi\Fairy_Tail_Main_Theme_brass_2.xml" />
+    <Content Include="Assets\Midi\Fairy_Tail_Main_Theme_brass_3.xml" />
     <Content Include="Assets\Midi\ff8boss_0.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -338,6 +346,9 @@
     <Content Include="Assets\Midi\Flight of the Bumblebee_1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\Forsaken_Neon_by_Dimrain47_0.xml" />
+    <Content Include="Assets\Midi\Forsaken_Neon_by_Dimrain47_1.xml" />
+    <Content Include="Assets\Midi\Forsaken_Neon_by_Dimrain47_2.xml" />
     <Content Include="Assets\Midi\gameofthrones_1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -421,6 +432,10 @@
     <Content Include="Assets\Midi\I am the Doctor_2.xml" />
     <Content Include="Assets\Midi\I am the Doctor_3.xml" />
     <Content Include="Assets\Midi\I am the Doctor_4.xml" />
+    <Content Include="Assets\Midi\Ill_Make_a_Man_out_of_You_0.xml" />
+    <Content Include="Assets\Midi\Ill_Make_a_Man_out_of_You_1.xml" />
+    <Content Include="Assets\Midi\Ill_Make_a_Man_out_of_You_2.xml" />
+    <Content Include="Assets\Midi\Ill_Make_a_Man_out_of_You_3.xml" />
     <Content Include="Assets\Midi\jurassicpark_1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -603,6 +618,15 @@
     <Content Include="Assets\Midi\pokerface_9.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\Pursuit__Cornered_0.xml" />
+    <Content Include="Assets\Midi\Pursuit__Cornered_1.xml" />
+    <Content Include="Assets\Midi\Pursuit__Cornered_2.xml" />
+    <Content Include="Assets\Midi\Pursuit__Cornered_3.xml" />
+    <Content Include="Assets\Midi\Pursuit__Cornered_4.xml" />
+    <Content Include="Assets\Midi\Pursuit__Cornered_5.xml" />
+    <Content Include="Assets\Midi\Pursuit__Cornered_6.xml" />
+    <Content Include="Assets\Midi\Pursuit__Cornered_7.xml" />
+    <Content Include="Assets\Midi\Pursuit__Cornered_8.xml" />
     <Content Include="Assets\Midi\Save_The_WorldDont_You_Worry_Child_0.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -732,6 +756,14 @@
     <Content Include="Assets\Midi\Star_Wars_Medley_3.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\Still_Alive_0.xml" />
+    <Content Include="Assets\Midi\Still_Alive_1.xml" />
+    <Content Include="Assets\Midi\Still_Alive_2.xml" />
+    <Content Include="Assets\Midi\Still_Alive_3.xml" />
+    <Content Include="Assets\Midi\Street_Fighter_II_Guile_Theme_0.xml" />
+    <Content Include="Assets\Midi\Street_Fighter_II_Guile_Theme_1.xml" />
+    <Content Include="Assets\Midi\Street_Fighter_II_Guile_Theme_2.xml" />
+    <Content Include="Assets\Midi\Street_Fighter_II_Guile_Theme_3.xml" />
     <Content Include="Assets\Midi\Supreme_Star_Wars_Medley_0.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -774,6 +806,10 @@
     <Content Include="Assets\Midi\The_Decisive_Battle_-_Final_Fantasy_VI_3.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Midi\The_Flash_Main_Theme_0.xml" />
+    <Content Include="Assets\Midi\The_Flash_Main_Theme_1.xml" />
+    <Content Include="Assets\Midi\The_Flash_Main_Theme_2.xml" />
+    <Content Include="Assets\Midi\The_Flash_Main_Theme_3.xml" />
     <Content Include="Assets\Midi\The_Incredibles_0.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
